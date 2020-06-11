@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pom</title>
+</head>
+<body>
+
+
+<div>    
+    <div>
+    <p style="margin-bottom: 5px;"> Tiempo del Pomodoro: </p>
+    </div>
+
+    <div>
+        <input type="text" id="tiempoG"/> 
+        <input type="button" name="enviar" value="Enviar" onclick="inicioT();"/>
+    </div> 
+    
+    <div>
+        <p style="margin-bottom: 5px;"> Que vamos a hacer?: </p>
+        <textarea style="width: 231px;" type="text" id="TareasArealizar"></textarea>
+    </div>    
+
+    <div style="line-height: 0;">
+        <p> Tiempo restante: </p>    
+        <b  id="tiempoM">999 </b>
+    </div>
+
+    <div style="line-height: 0; margin-top: 25px;">
+        <p> Pomodoros </p>
+        <b  id="pomodorosHechosCantidad"> 0 </b>
+    </div>
+
+    <div style="line-height: 0; margin-top: 25px;">
+        <textarea disabled style="width: 331px; height: 331px;" id="TareasHechas"> Has terminado de: ?????????? </textarea>        
+    </div>
+</div>    
+
+
+
+
+    <script src="./pom.js"></script>
+</body>
+</html>
